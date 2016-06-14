@@ -35,10 +35,13 @@ public class Spaceship {
         this.hitPoints = hitPoints;
     }
 
-    /// <summary>
-    /// Attack another ship.
-    /// </summary>
-    /// <param name="enemyShip">The spaceship object that will be attacked.</param>
+
+    /**
+     * Attack.
+     *
+     * @param enemyShip the enemy ship
+     * @param hit       the hit
+     */
     public void Attack(Spaceship enemyShip, Integer hit)
     {
         //random object to create random numbers.
